@@ -1,0 +1,22 @@
+scipy >= 1.0.0
+numpy>=1.17
+requests>=2.22.0
+fsspec
+huggingface_hub==0.0.2
+dill
+pandas
+tqdm>=4.27
+xxhash
+multiprocess
+packaging
+regex!=2019.12.17
+tokenizers==0.9.4
+tensorboard
+sacremoses
+pyemd
+sklearn
+fairseq
+fastBPE
+boto3
+nlpaug
+Cython

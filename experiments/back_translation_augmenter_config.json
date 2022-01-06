@@ -1,0 +1,6 @@
+{
+"from_model_name": "transformer.wmt18.en-de",
+"from_model_checkpt": "wmt18.model1.pt",
+"to_model_name": "transformer.wmt19.de-en",
+"to_model_checkpt": "model1.pt"
+}

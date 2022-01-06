@@ -1,0 +1,5 @@
+{
+    "action": "swap",
+    "aug_min": 3,
+    "aug_max": 10
+}

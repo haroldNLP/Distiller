@@ -1,0 +1,6 @@
+Model,Teacher,intermediate_loss_type,alpha,intermediate_strategy,kd_loss_type,mixup,repeated_aug,aug_p,task,baseline_score,contextual,backtranslation,random,ratio
+TinyBERT4,BERT_BASE,mi,0.5,skip,mse,True,1,0.3,boolq,0.66442953,0,0,0,0.9063257
+TinyBERT4,BERT_BASE,pkd,0.1,last,mse,False,1,0.3,boolq,0.66442953,0,0,0,0.8684752
+TinyBERT4,BERT_BASE,mi,0.0,emd,mse,False,1,0.3,boolq,0.66442953,0,0,0,0.89219904
+TinyBERT4,BERT_BASE,cos,0.1,last,ce,True,1,0.3,boolq,0.66442953,0,0,0,0.88246244
+TinyBERT4,BERT_BASE,cos,0.1,last,ce,True,1,0.3,boolq,0.66442953,0,0,0,0.88246244

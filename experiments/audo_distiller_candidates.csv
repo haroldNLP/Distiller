@@ -1,0 +1,31 @@
+Model,Teacher,intermediate_loss_type,alpha,intermediate_strategy,kd_loss_type,mixup,repeated_aug,aug_p,task,baseline_score,contextual,backtranslation,random,ratio,score
+TinyBERT4,BERT_BASE,mi,0.9,skip,mse,TRUE,1,0.5,boolq,0.66442953,2,0,1,0.914060831,0.735087183
+TinyBERT4,BERT_BASE,mi,0.9,skip,ce,TRUE,1,0.5,boolq,0.66442953,2,0,1,0.859947085,0.733863567
+TinyBERT4,BERT_BASE,mi,0.9,skip,mse,TRUE,1,0.1,boolq,0.66442953,2,0,1,0.859722197,0.741511165
+TinyBERT4,BERT_BASE,mi,0.9,skip,ce,FALSE,1,0.5,boolq,0.66442953,2,0,1,0.856528699,0.728357296
+TinyBERT4,BERT_BASE,mi,0.9,skip,mse,TRUE,1,0.3,boolq,0.66442953,2,0,1,0.847028852,0.738452126
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+TinyBERT4,BERT_BASE,mi,1,skip,ce,FALSE,1,0.3,boolq,0.66442953,0,0,0,0.7637757,0.730498623
+TinyBERT4,BERT_BASE,cos,0.1,last,mse,TRUE,1,0.3,boolq,0.66442953,0,0,0,0.80568177,0.684001224
+TinyBERT4,BERT_BASE,mi,0.9,skip,ce,TRUE,1,0.1,boolq,0.66442953,2,0,1,0.80584294,0.738452126
+TinyBERT4,BERT_BASE,ce,0.1,last,ce,FALSE,1,0.3,boolq,0.66442953,0,0,0,0.79886496,0.686142551
+TinyBERT4,BERT_BASE,mi,0.9,skip,ce,FALSE,1,0.3,boolq,0.66442953,0,0,0,0.7623102,0.733863567
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+TinyBERT4,BERT_BASE,mi ,0.9,skip,mse,TRUE,1,0.1,cloth,0.872263372,2,0,1,,0.696611048
+TinyBERT4,BERT_BASE,mi ,0.9,skip,mse,TRUE,1,0.3,cloth,0.871292591,2,0,1,,0.695611113
+TinyBERT4,BERT_BASE,mi ,0.9,skip,mse,TRUE,1,0.5,cloth,0.870904505,2,0,1,,0.693390825
+TinyBERT4,BERT_BASE,mi ,1,last,mse,TRUE,1,0.3,cloth,0.805995703,0,0,0,,0.694948838
+TinyBERT4,BERT_BASE,mi ,0.1,emd,mse,TRUE,1,0.3,cloth,0.805640638,0,0,0,,0.697511105
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+TinyBERT4,BERT_BASE,mi,1,skip,mse,FALSE,1,0.3,cloth,0.80011326,0,0,0,,0.691664602
+TinyBERT4,BERT_BASE,mse,0.1,last,mse,FALSE,1,0.3,cloth,0.7908277,0,0,0,,0.683663025
+TinyBERT4,BERT_BASE,mi,0.7,skip,mse,FALSE,1,0.3,cloth,0.8000555,0,0,0,,0.688584472
+TinyBERT4,BERT_BASE,mi,0,last,mse,TRUE,1,0.3,cloth,0.805326,0,0,0,,0.683289606
+TinyBERT4,BERT_BASE,mse,0.1,skip,mse,TRUE,1,0.3,cloth,0.790821,0,0,0,,0.696991322

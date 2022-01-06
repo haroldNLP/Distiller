@@ -1,0 +1,7 @@
+{
+  "model_type": "bert",
+  "top_k": 15,
+  "aug_min": 20,
+  "aug_max": 25,
+  "device": "cuda"
+}
