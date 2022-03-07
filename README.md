@@ -1,6 +1,6 @@
 # Towards Automated Distillation: A Systematic Study of Knowledge Distillation in Natural Language Processing
 
-This repository includes training and testing code of the paper "Distiller: A Systematic Study of Knowledge Distillation in Natural Language Processing". You can reproduce our experimental results with code [here](experiments/). 
+This repository includes training and testing code of the paper "Towards Automated Distillation: A Systematic Study of Knowledge Distillation in Natural Language Processing". You can reproduce our experimental results with code [here](experiments/). 
 
 ## Ray Tune
 
